@@ -45,7 +45,7 @@ function Header() {
                         return( <button  key={index} onClick={()=>scollToSection(item.href)} className="text-gray-300 hover:text-green-400 transition-all duration-300 font-medium relative group" style={{animationDelay: `${index * 0.1}s`}}>{item.name} <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-green-400 transition-all duration-300 group-hover:w-full"></span></button>);
                       })}
                    </nav>
-                   <a href="/cv.pdf" download>
+                   <a href="/souhayla.pdf" download>
                      <button className="hidden md:flex items-center gap-2 bg-green-600 text-white px-6 py-2.5 rounded-lg hover:bg-green-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl hover:scale-105">
                          Download CV Now
                       </button>
@@ -67,7 +67,7 @@ function Header() {
                         Download CV Now
                        </button>
                     </a>*/}
-                    <a href="/cv.pdf" download className="mt-4 w-full flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-2.5 rounded-lg hover:bg-green-700 transition-all duration-300 text-center">
+                    <a href="/souhayla.pdf" download className="mt-4 w-full flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-2.5 rounded-lg hover:bg-green-700 transition-all duration-300 text-center">
                        Télécharger mon CV
                    </a>
 

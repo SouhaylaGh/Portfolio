@@ -26,7 +26,7 @@ function Hero() {
                         <span className="text-white">Souhayla Ghanem</span>
                       </h1>
                       <p className={`mt-4 text-gray-300 text-lg leading-8 max-w-3xl text-left transition-all duration-1000 delay-400 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"}`}>
-                         Ingénieure en Génie Informatique et Intelligence Artificielle, passionnée par le développement web, mobile et la data science.
+                         Ingénieure en Génie Informatique et Intelligence Artificielle, passionnée par le développement web et la data science.
                        </p>
                        {/*<div className="flex flex-wrap gap-4 pt-4 transition-all duration-1000 delay-600">
                           <button className="bg-green-600 text-white px-8 py-4 rounded-lg hover:bg-green-700 transition-all duration-300 flex items-center gap-2 group shadow-lg hover:shadow-xl font-medium hover:scale-105">LEARN MORE <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" /></button>

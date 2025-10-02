@@ -28,7 +28,7 @@ function About() {
                             <div className="relative group">
                                 <div className="w-full max-w-md mx-auto">
                                     <div className="relative border-4 border-green-500 rounded-2xl p-2 group-hover:border-green-400 transition-all duration-300">
-                                        <img src="/image/WhatsApp Image 2025-09-21 at 22.56.04 (1).jpeg" alt="" className="w-full rounded-xl transition-all duration-500 group-hover:scale-105"/>
+                                        <img src="/image/Gemini_Generated_Image_r8rlwcr8rlwcr8rl.png" alt="" className="w-full rounded-xl transition-all duration-500 group-hover:scale-105"/>
                                         <div className="absolute inset-2 bg-gradient-to-tr from-green-600/10 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                                         <div className="absolute -top-6 -right-6 w-12 h-12 bg-red-600/20 rounded-full"></div>
                                         <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-blue-600/20 rounded-full"></div>
@@ -44,15 +44,19 @@ function About() {
                                 <p className="text-green-400 font-semibold delay-200">Développeuse Full-Stack & Intelligence Artificielle </p>
                             </div>
                             <div className="space-y-6 text-gray-300 leading-relaxed">
-                               <p className={`text-lg max-w-5xl mx-auto text-justify  transition-all duration-100 delay-500 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
-                                  Je suis <span className="font-semibold text-white">Souhayla Ghanem</span>, ingénieure en Génie Informatique et Intelligence Artificielle diplômée de l’ENSA de Safi. 
-                                  Passionnée par le développement web et mobile ainsi que par la data science, j’ai acquis des compétences solides en 
-                                  <span className="text-white"> JavaScript, React, Node.js, Python, SQL et MongoDB</span>, que j’ai mises en pratique à travers divers projets académiques et expériences professionnelles. 
-                                  Mon parcours m’a permis de travailler aussi bien sur le <span className="italic">front-end</span> que sur le <span className="italic">back-end</span>, ainsi que sur des projets intégrant le 
-                                 <span className="text-white"> machine learning et l’analyse de données</span>.
+                               <p className="text-base sm:text-lg lg:text-xl text-justify text-gray-300 leading-relaxed tracking-wide">
+                                 Vous pouvez me choisir pour votre prochain projet parce que je ne me contente pas seulement d’écrire du code : 
+                                 je <span className="font-semibold text-white">transforme vos besoins en solutions concrètes, performantes et fiables</span>. 
+                                 Mon objectif est de <span className="font-semibold text-white">comprendre en profondeur votre vision</span> pour livrer un travail qui dépasse vos attentes.
+                                 Je suis <span className="text-white font-medium">rigoureuse, réactive et orientée résultats</span> : 
+                                 je sais respecter les délais, m’adapter aux imprévus et proposer des améliorations lorsque c’est nécessaire. 
+                                 En me confiant votre projet, vous aurez une <span className="italic text-white">collaboratrice impliquée</span>, 
+                                 qui <span className="font-semibold text-white">communique clairement</span> et qui met 
+                                 <span className="font-semibold text-white"> toute son énergie pour garantir la réussite et la qualité du produit final</span>.
                                </p>
+
                             </div>
-                            <div className={`grid grid-cols-2 gap-8 py-6 transition-all duration-1000 dealy-500 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
+                            {/*<div className={`grid grid-cols-2 gap-8 py-6 transition-all duration-1000 dealy-500 ${isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}`}>
                                 <div className="group">
                                     <p className="text-white font-semibold group-hover:text-green-400 transition-all duration-300">
                                        Nom:
@@ -75,7 +79,7 @@ function About() {
                                     <p className="text-gray-300">souhaghanem5@gmail.com</p>
 
                                 </div>
-                            </div>
+                            </div>*/}
                            {/* <div className="flex flex-wrap gap-4 transition-all duration-1000 delay-1100">
                                 <button className="bg-green-600 text-white px-8 py-3 rounded-lg hover:bg-green-700 transition-all duration-300 font-medium shadow-lg hover:shadow-xl hover:scale-105">
                                    Download
