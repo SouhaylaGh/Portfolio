@@ -28,7 +28,7 @@ function About() {
                             <div className="relative group">
                                 <div className="w-full max-w-md mx-auto">
                                     <div className="relative border-4 border-green-500 rounded-2xl p-2 group-hover:border-green-400 transition-all duration-300">
-                                        <img src="/image/Gemini_Generated_Image_r8rlwcr8rlwcr8rl.png" alt="" className="w-full rounded-xl transition-all duration-500 group-hover:scale-105"/>
+                                        <img src="/image/WhatsApp Image 2025-09-21 at 22.56.04.jpeg" alt="" className="w-full rounded-xl transition-all duration-500 group-hover:scale-105"/>
                                         <div className="absolute inset-2 bg-gradient-to-tr from-green-600/10 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition-all duration-500"></div>
                                         <div className="absolute -top-6 -right-6 w-12 h-12 bg-red-600/20 rounded-full"></div>
                                         <div className="absolute -bottom-6 -left-6 w-8 h-8 bg-blue-600/20 rounded-full"></div>
@@ -44,7 +44,7 @@ function About() {
                                 <p className="text-green-400 font-semibold delay-200">Développeuse Full-Stack & Intelligence Artificielle </p>
                             </div>
                             <div className="space-y-6 text-gray-300 leading-relaxed">
-                               <p className="text-base sm:text-lg lg:text-xl text-justify text-gray-300 leading-relaxed tracking-wide">
+                               <p className="text-sm sm:text-base lg:text-lg text-justify text-gray-300 leading-relaxed tracking-wide">
                                  Vous pouvez me choisir pour votre prochain projet parce que je ne me contente pas seulement d’écrire du code : 
                                  je <span className="font-semibold text-white">transforme vos besoins en solutions concrètes, performantes et fiables</span>. 
                                  Mon objectif est de <span className="font-semibold text-white">comprendre en profondeur votre vision</span> pour livrer un travail qui dépasse vos attentes.

@@ -50,7 +50,7 @@ function Hero() {
                     <div className="relative">
                         <div className="w-full max-w-lg mx-auto">
                             <div className="relative group">
-                               <img src="/image/WhatsApp Image 2025-09-21 at 22.56.04 (1).jpeg" alt="" className="w-full rounded-2xl shadow-2xl transition-all duration-500 group-hover:scale-105" />
+                               <img src="/image/souha.jpeg" alt="" className="w-full rounded-2xl shadow-2xl transition-all duration-500 group-hover:scale-105" />
                             </div>
 
                         </div>
